@@ -1,14 +1,13 @@
 # Missile Command
-Missile command game which utilizes factory design pattern.
+Missile command game re-created using the [Zeron Engine](https://github.com/ekokturk/ZeronEngine).
 
 #### Dependencies
-- CMake 3.8+, https://cmake.org/download/
+- CMake 3.24+, https://cmake.org/download/
 
-#### How to Install
-- Run 'GenerateProject.bat' to create project solution
-
-#### Play
-- [Download Link](https://drive.google.com/file/d/1toGRpCCPJhTmB-5olPtqiUXRtK0yXaxR/view?usp=sharing)
+#### Generate Project
+- Windows `cmake --preset=Win32_x64`
+- Linux `cmake --preset=Linux_x64_<Debug | Release>`
+- Android  `cmake --preset=Android_<x86-64 | arm64-v8a>_<Debug | Release>`
 
 ---
 #### Screenshots
@@ -20,5 +19,3 @@ Missile command game which utilizes factory design pattern.
 ![](/Screenshots/3.jpg)
 
 ![](/Screenshots/4.jpg)
-
-Copyright (C) 2020, Eser Kokturk. All Rights Reserved.
